@@ -1,6 +1,6 @@
 #create views here
 from django.shortcuts import render
-from blog.models import Post
+from blog.models import Post, Comment
 from .forms import CommentForm
 
 def blog_index(request):
